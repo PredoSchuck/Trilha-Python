@@ -1,8 +1,10 @@
-programa
-{
-	funcao inicio()
-	{
-		escreva("Olá, Mundo!")
+programa{
+	funcao inicio(){
+		escreva("O dobro é: ", dobro(5))
+	}
+	funcao inteiro dobro(inteiro numero){
+		inteiro resultado = numero * 2
+		retorne resultado
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -10,7 +12,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 55; 
+ * @POSICAO-CURSOR = 157; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.3">
+  <diagram name="Página-1" id="v3UyMyODxg_5oRgKFKvt">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vZIo9Up3kBFU7IFncHly-15" edge="1" parent="1" source="vZIo9Up3kBFU7IFncHly-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZIo9Up3kBFU7IFncHly-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Início" vertex="1">
+          <mxGeometry height="80" width="120" x="354" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-5" edge="1" parent="1" source="vZIo9Up3kBFU7IFncHly-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZIo9Up3kBFU7IFncHly-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-6" connectable="0" parent="vZIo9Up3kBFU7IFncHly-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sim" vertex="1">
+          <mxGeometry relative="1" x="0.0123" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-18" edge="1" parent="1" source="vZIo9Up3kBFU7IFncHly-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZIo9Up3kBFU7IFncHly-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-25" connectable="0" parent="vZIo9Up3kBFU7IFncHly-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Não" vertex="1">
+          <mxGeometry relative="1" x="-0.0685" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Saldo &amp;gt; Saque" vertex="1">
+          <mxGeometry height="100" width="106" x="361" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-8" edge="1" parent="1" source="vZIo9Up3kBFU7IFncHly-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZIo9Up3kBFU7IFncHly-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-4" parent="1" style="whiteSpace=wrap;html=1;" value="Saldo - Saque" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-12" edge="1" parent="1" source="vZIo9Up3kBFU7IFncHly-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZIo9Up3kBFU7IFncHly-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-7" parent="1" style="whiteSpace=wrap;html=1;" value="Sai do ATM" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Fim" vertex="1">
+          <mxGeometry height="80" width="120" x="354" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-16" edge="1" parent="1" source="vZIo9Up3kBFU7IFncHly-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZIo9Up3kBFU7IFncHly-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-14" parent="1" style="whiteSpace=wrap;html=1;" value="Chega no&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ATM&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-20" edge="1" parent="1" source="vZIo9Up3kBFU7IFncHly-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZIo9Up3kBFU7IFncHly-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-17" parent="1" style="whiteSpace=wrap;html=1;" value="Operação Negada" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-21" edge="1" parent="1" source="vZIo9Up3kBFU7IFncHly-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZIo9Up3kBFU7IFncHly-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZIo9Up3kBFU7IFncHly-19" parent="1" style="whiteSpace=wrap;html=1;" value="Sai do ATM" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

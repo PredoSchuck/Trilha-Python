@@ -1,0 +1,42 @@
+/*
+ * Escreva um programa para calcular as raízes de uma equação do 2o grau. O programa principal deve ler os valores de A, B e C.
+ * - Crie uma função real calcular_delta(real a, real b, real c) que devolva o valor de Delta.
+ * - Crie uma função calcular_raizes(real a, real b, real c, real delta) que verifique se  o delta é negativo (imprimindo ”Não existem raízes reais”) ou calcule e imprima as raízes X1 e X2.
+ */
+
+programa{
+	inclua biblioteca Matematica --> mat
+	funcao inicio() {
+		real a, b, c, delta
+			escreva("Valor de A, B e C: ") 
+			leia(a)
+			leia(b)
+			leia(c)
+			
+			delta = calcular_delta(a, b, c)
+			calcular_raizes(a, b, c, delta)
+	}
+	funcao real calcular_delta(real a, real b, real c){
+		retorne (b * b) - (4 * a * c)
+		}
+	funcao calcular_raizes(real a, real b, real c, real d){
+		se(d < 0){
+			escreva("Não existem raízes reais")
+		}senao{
+			real x1 = (-b + mat.raiz(d, 2)) / (2 * a)
+			real x2 = (-b - mat.raiz(d, 2)) / (2 * a)
+			escreva("X1 = ", x1, "\nX2 = ", x2)
+		}
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 412; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
